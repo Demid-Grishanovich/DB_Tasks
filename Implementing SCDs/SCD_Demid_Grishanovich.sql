@@ -50,6 +50,7 @@ END IF;
 RETURN NULL;
 END;
 $$
+
 LANGUAGE plpgsql;
 
 -- Creating trigger to handle INSERT, UPDATE, and DELETE on staging_employees
